@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+body {
+	background-color: black;
+	color: white;
+	font: Arial;
+}
+
+.placeholder {
+	
+	background-color: white;
+	width: 80px;
+	height: 120px;
+	margin: 1em;
+	text-align: center;
+	line-height: 100px;
+}
+
+.deckStyle {
+	visibility: hidden;
+}
+
+.handCardStyle {
+	width: 80px;
+	height: 120px;
+	float: left;
+	margin: 1em;
+	text-align: center;
+}
+
+.hidden {
+	background-color: white;
+}
+
+.open {
+	background-color: red;
+}
+	
+	
+#aufnehmen {
+	width: 50px;
+	height: 20px;
+	border: solid white 5px;
+	text-align: center;
+	text-position: middle;
+	border-radius: 10px;
+	padding-left: 15px;
+	color: #ffffff;
+	background-color: #969696;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 0.5em;
+}
+
+
+#sort {
+	width: 50px;
+	height: 20px;
+	position: absolute;
+	text-align: center;
+	text-position: middle;
+	padding-top: 15px;
+	border: solid white 5px;
+	border-radius: 10px;
+	color: white;
+	background-color: #535353;
+	font-family: 'Quicksand', sans-serif;
+	font-size:0.5em;
+	display: block;
+	
+}
+
+.Karte {
+	height: 200px;
+	width: 140px;
+	border: solid white 3px;
+	border-radius: 10px;
+	position: relative;
+    font-family: 'Quicksand', sans-serif;
+	font-size: 2em;
+	margin-left: 30px;
+	top: 450px;
+	bottom: 100px;
+	left: 50px;
+	padding: 20px;
+	padding-top: 50px;
+	font-size: 2em;
+	float: left;
+}
+
+
+.red {
+	color: white;
+	background-color: #dd2100;
+}
+
+.yellow {
+	color: black;
+	background-color: #fefc05;
+}
+
+.blue {
+	color: white;
+	background-color: #2236b9;
+}
+
+.green {
+	color: black;
+	background-color: #4a912c;
+}
+
+.black {
+	color: white;
+	background-color: black;
+}
